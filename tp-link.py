@@ -1,5 +1,5 @@
 import os
-a = int(input(" 'a'000 0000  choose the number 'a' : "))
+a = int(input(" 'a'000 0000  choose the number 'a' (enter 0 to create all 8 digit combinations) : "))
 b = 0
 c = 0
 d = 0
