@@ -9,8 +9,13 @@ g = 0
 h = 0
 
 x = 0
+while True:
+    name = input("Enter the name of the wordlist (with .txt) : ")
+    l = name.split(".")
+    if l[-1] == 'txt':
+        break
 
-dr = os.getcwd()+"/pass.txt"
+dr = os.getcwd()+"/"+name
 
 file = open(dr, "w")
 while x != "99999999":
